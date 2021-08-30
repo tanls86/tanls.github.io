@@ -16,6 +16,10 @@
     width: 100%;
 }
 
+a:active {
+    color: yellow;
+}
+
 .header {
     height: 500px;
     width: 100%;
@@ -72,7 +76,6 @@
 }
 
 .menu-couse {
-    padding: 0 200px;
     border-radius: 1px gray solid;
     text-align: center;
 }
@@ -82,17 +85,24 @@
 }
 
 .couse {
-    margin-top: 130px;
     margin: 0 auto;
-    width: 50%;
+    width: 65%;
+}
+
+.nav-couse .nav-link {
+    border-bottom: 1px gray solid;
 }
 
 .nav-couse {
-    border-bottom: 1px gray solid;
+    margin-top: 100px;
+    padding-bottom: 20px;
 }
 
 .nav-couse li a {
     color: #1b1a13;
+    font-weight: 600;
+    padding: 20px;
+    font-size: 16px;
 }
 
 h6:hover {
@@ -164,6 +174,13 @@ footer {
     #navbarSupportedContent a {
         color: aliceblue;
     }
+    .nav-couse {
+        margin-top: 70px;
+        padding-bottom: 20px;
+    }
+    .couse {
+        width: 75%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -196,6 +213,13 @@ footer {
         width: 80%;
     }
     iframe {
-        width: 300px;
+        width: 200px;
+    }
+    .header {
+        height: 300px;
+    }
+    .header-banner {
+        margin-top: 30px;
+        font-size: 30px;
     }
 }
