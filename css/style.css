@@ -1,11 +1,14 @@
-.wraper {
-    margin: 0;
-    padding: 0;
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .nav-container {
     padding: 20px 0;
     width: 100%;
+    color: #1b1a13;
+    font-weight: 500px;
 }
 
 .nav-fixed {
@@ -51,11 +54,18 @@ a:active {
     transition: .3s;
 }
 
-.wrap_img img:hover {
+img:hover {
     /* -webkit-transform: scale(1.1);
         transform: scale(1.1); */
     opacity: 0.6;
 }
+
+
+/* img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.9;
+} */
 
 .header-banner {
     width: 70%;
@@ -75,6 +85,11 @@ a:active {
     width: 100%;
 }
 
+.couse_wrap {
+    margin: 0 auto;
+    padding: 0 105px;
+}
+
 .menu-couse {
     border-radius: 1px gray solid;
     text-align: center;
@@ -86,7 +101,7 @@ a:active {
 
 .couse {
     margin: 0 auto;
-    width: 65%;
+    width: 60%;
 }
 
 .nav-couse .nav-link {
@@ -143,7 +158,9 @@ h6:hover {
 footer {
     width: 100%;
     height: auto;
-    background: rgb(28, 74, 161);
+    background-image: url(../img/news_bg_new.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding: 100px;
 }
 
@@ -159,10 +176,30 @@ footer {
     border-bottom: 4px red solid;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1248px) {
+    .couse {
+        width: 75%;
+    }
+    .elementor-column-wrap img {
+        width: 50%;
+    }
+    .search {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .contact-from .col-lg-5 {
+        width: 60%;
+    }
     .contact-from {
-        height: auto;
-        padding: 10px;
+        padding: 20px;
+    }
+    .elementor-column-wrap {
+        padding: 20px;
+    }
+    .elementor-column-wrap img {
+        width: 50%;
     }
     .elementor-column-wrap .elementor-time .title {
         font-size: 30px;
@@ -172,18 +209,24 @@ footer {
         padding: 20px;
     }
     #navbarSupportedContent a {
-        color: aliceblue;
+        color: rgb(88, 100, 110);
     }
     .nav-couse {
         margin-top: 70px;
         padding-bottom: 20px;
     }
     .couse {
-        width: 75%;
+        width: 100%;
+    }
+    .nav-couse li a {
+        font-weight: 400;
+    }
+    footer {
+        text-align: center;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 890px) {
     .header-banner {
         width: 100%;
     }
@@ -210,7 +253,10 @@ footer {
     .couse {
         margin-top: 60px;
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
+    }
+    .nav-couse li a {
+        font-weight: 400;
     }
     iframe {
         width: 200px;
@@ -221,5 +267,8 @@ footer {
     .header-banner {
         margin-top: 30px;
         font-size: 30px;
+    }
+    footer {
+        text-align: center;
     }
 }
