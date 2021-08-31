@@ -144,7 +144,7 @@ h6:hover {
 }
 
 .elementor-column-wrap {
-    padding: 70px;
+    padding: 30px;
 }
 
 .elementor-column-wrap .elementor-time .title {
@@ -176,6 +176,67 @@ footer {
     border-bottom: 4px red solid;
 }
 
+.detail {
+    font-size: 18px;
+}
+
+#countdown ul li {
+    border: 1px solid white;
+    padding: 10px;
+    width: 112px;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: exo-2;
+}
+
+#countdown li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+#countdown li span {
+    display: block;
+    font-size: 48px;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+#background-video {
+    width: 640px;
+    height: 360px;
+    position: relative;
+}
+
+#background-video iframe {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#background-video .play-btn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 0px;
+    line-height: 0px;
+    background: url(http://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/playbutton.png) center center no-repeat;
+    background-size: 120px auto;
+}
+
 @media screen and (max-width: 1248px) {
     .couse {
         width: 75%;
@@ -186,9 +247,16 @@ footer {
     .search {
         display: none;
     }
+    #countdown ul li {
+        width: 85px;
+    }
+    #countdown li span {
+        display: block;
+        font-size: 38px;
+    }
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1040px) {
     .contact-from .col-lg-5 {
         width: 60%;
     }
@@ -204,13 +272,6 @@ footer {
     .elementor-column-wrap .elementor-time .title {
         font-size: 30px;
     }
-    #navbarSupportedContent {
-        background-color: #1b1a13;
-        padding: 20px;
-    }
-    #navbarSupportedContent a {
-        color: rgb(88, 100, 110);
-    }
     .nav-couse {
         margin-top: 70px;
         padding-bottom: 20px;
@@ -224,18 +285,17 @@ footer {
     footer {
         text-align: center;
     }
+    .couse_wrap {
+        padding: 0 80px;
+    }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 865px) {
     .header-banner {
         width: 100%;
     }
     .nav-container {
         padding: 0;
-    }
-    .nav-fixed {
-        height: 100px;
-        position: relative;
     }
     #navbarSupportedContent {
         background-color: #1b1a13;
@@ -270,5 +330,14 @@ footer {
     }
     footer {
         text-align: center;
+    }
+    .couse_wrap {
+        padding: 0 70px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-from {
+        height: auto;
     }
 }
