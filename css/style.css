@@ -321,6 +321,9 @@ footer {
     .form-wrap {
         padding: 0 30px;
     }
+    .btn-p {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -382,6 +385,9 @@ footer {
     .contact-from .col-lg-6 {
         width: 100%;
         padding: 20px 30px;
+    }
+    .btn-p {
+        display: none;
     }
 }
 
