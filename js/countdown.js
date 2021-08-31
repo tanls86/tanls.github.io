@@ -31,9 +31,3 @@
             //seconds
         }, 0)
 }());
-jQuery('.play-btn').click(function(e) {
-    e.preventDefault();
-    jQuery(this).hide();
-    jQuery('#background-video').find('iframe').show();
-    jQuery('#background-video').find('iframe')[0].src += "?autoplay=1";
-});

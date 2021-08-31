@@ -65,12 +65,17 @@ img:hover {
     opacity: 0.6;
 }
 
-
-/* img:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+.youtube:hover {
     opacity: 0.9;
-} */
+}
+
+.video2 {
+    height: 400px;
+}
+
+.video {
+    height: 250px;
+}
 
 .header-banner {
     width: 70%;
@@ -166,6 +171,17 @@ h6:hover {
     padding: 100px 100px;
 }
 
+.stock h2 {
+    font-weight: 600;
+    font-size: 48px;
+    font-family: exo-2;
+}
+
+.stock h4 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
 footer {
     width: 100%;
     height: auto;
@@ -212,16 +228,6 @@ footer {
 #countdown li span {
     display: block;
     font-size: 48px;
-}
-
-.emoji {
-    display: none;
-    padding: 1rem;
-}
-
-.emoji span {
-    font-size: 4rem;
-    padding: 0 .5rem;
 }
 
 #background-video {
@@ -354,6 +360,23 @@ footer {
     .form-wrap {
         padding: 0 20px;
     }
+    .video {
+        height: 100px;
+    }
+    .stock h4 {
+        font-size: 15px;
+    }
+    .video2 {
+        height: 230px;
+    }
+    .contact-from .col-lg-5 {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .contact-from .col-lg-6 {
+        width: 100%;
+        padding: 20px 30px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -382,10 +405,13 @@ footer {
         padding: 0 45px;
     }
     .stock {
-        padding: 50px 10px;
+        padding: 50px 20px;
     }
     .form-wrap {
         width: 100%;
         padding: 0 15px;
+    }
+    .video {
+        height: 230px;
     }
 }
