@@ -340,4 +340,11 @@ footer {
     .contact-from {
         height: auto;
     }
+    .header-banner {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .nav-couse {
+        display: block;
+    }
 }
