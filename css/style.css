@@ -201,7 +201,7 @@ footer {
     background-image: url(../img/news_bg_new.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 100px 0 10px 100px;
+    padding: 100px 100px 10px 100px;
 }
 
 .text-f {
@@ -440,5 +440,31 @@ footer {
     }
     #navbarSupportedContent a {
         color: aliceblue;
+    }
+}
+
+@media screen and (max-width: 423px) {
+    .header-banner {
+        margin-top: -10px;
+    }
+    .header-banner h1 {
+        font-size: 40px;
+    }
+    .header-banner h4 {
+        font-size: 20px;
+    }
+    .couse {
+        width: 100%;
+    }
+    #countdown ul li {
+        width: 61px;
+        font-size: 0.6em;
+    }
+    .stock h2 {
+        font-size: 35px;
+    }
+    footer iframe {
+        width: 189px;
+        margin-top: 24px;
     }
 }
