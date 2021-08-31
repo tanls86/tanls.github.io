@@ -159,12 +159,15 @@ h6:hover {
 }
 
 .elementor-column-wrap .elementor-time .title {
-    font-size: 60px;
+    font-size: 69px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 900;
 }
 
-.form-wrap {
+
+/* .form-wrap {
     padding: 0 100px;
-}
+} */
 
 .stock {
     margin: 0 auto;
@@ -197,11 +200,10 @@ h6:hover {
 
 footer {
     width: 100%;
-    height: auto;
     background-image: url(../img/news_bg_new.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 100px 100px 10px 100px;
+    padding-top: 20px;
 }
 
 .text-f {
@@ -241,30 +243,6 @@ footer {
 #countdown li span {
     display: block;
     font-size: 48px;
-}
-
-#background-video {
-    width: 640px;
-    height: 360px;
-    position: relative;
-}
-
-#background-video iframe {
-    width: 100%;
-    height: 100%;
-    display: none;
-}
-
-#background-video .play-btn {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    font-size: 0px;
-    line-height: 0px;
-    background: url(http://www.legacycitychurch.com/media/cover_art/Play%20Button%20Overlay/playbutton.png) center center no-repeat;
-    background-size: 120px auto;
 }
 
 @media screen and (max-width: 1248px) {
@@ -378,6 +356,9 @@ footer {
     .video2 {
         height: 230px;
     }
+    .contact-from {
+        height: auto;
+    }
     .contact-from .col-lg-5 {
         width: 100%;
         padding: 0 30px;
@@ -440,6 +421,10 @@ footer {
     }
     #navbarSupportedContent a {
         color: aliceblue;
+    }
+    footer iframe {
+        width: 189px;
+        margin-top: 24px;
     }
 }
 
