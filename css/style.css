@@ -116,7 +116,7 @@ img:hover {
 }
 
 .nav-couse .nav-link {
-    border-bottom: 1px gray solid;
+    size: 16px;
 }
 
 .nav-couse {
@@ -171,15 +171,28 @@ h6:hover {
     padding: 100px 100px;
 }
 
+.header-banner h1 {
+    font-family: exo-2;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.link {
+    font-weight: 600;
+    font-size: 24px;
+    color: #1b1a13;
+}
+
+.link:hover {
+    color: red;
+    text-decoration: none;
+}
+
 .stock h2 {
     font-weight: 600;
     font-size: 48px;
     font-family: exo-2;
-}
-
-.stock h4 {
-    font-weight: 600;
-    font-size: 24px;
+    margin-bottom: 50px;
 }
 
 footer {
@@ -200,7 +213,7 @@ footer {
 
 .nav-couse li a:hover {
     color: red;
-    border-bottom: 4px red solid;
+    text-decoration: underline;
 }
 
 .detail {
@@ -317,13 +330,6 @@ footer {
     .nav-container {
         padding: 0;
     }
-    #navbarSupportedContent {
-        background-color: #1b1a13;
-        padding: 20px;
-    }
-    #navbarSupportedContent a {
-        color: aliceblue;
-    }
     .btn-p {
         display: none;
     }
@@ -379,9 +385,17 @@ footer {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 573px) {
     .contact-from {
         height: auto;
+    }
+    .contact-from .col-lg-5 {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .contact-from .col-lg-6 {
+        width: 100%;
+        padding: 20px 30px;
     }
     footer {
         text-align: center;
@@ -413,5 +427,12 @@ footer {
     }
     .video {
         height: 230px;
+    }
+    #navbarSupportedContent {
+        background-color: #1b1a13;
+        padding: 20px;
+    }
+    #navbarSupportedContent a {
+        color: aliceblue;
     }
 }
