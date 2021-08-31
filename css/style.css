@@ -92,8 +92,8 @@ img:hover {
 
 .couse_wrap {
     width: 100%;
-    /* margin: 0 auto; */
-    padding: 0 105px;
+    margin: 0 auto;
+    padding: 0 100px;
 }
 
 .menu-couse {
@@ -157,8 +157,13 @@ h6:hover {
     font-size: 60px;
 }
 
+.form-wrap {
+    padding: 0 100px;
+}
+
 .stock {
-    margin-top: 150px;
+    margin: 0 auto;
+    padding: 100px 100px;
 }
 
 footer {
@@ -167,7 +172,7 @@ footer {
     background-image: url(../img/news_bg_new.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 100px;
+    padding: 100px 0 10px 100px;
 }
 
 .text-f {
@@ -294,6 +299,9 @@ footer {
     .couse_wrap {
         padding: 0 80px;
     }
+    .form-wrap {
+        padding: 0 30px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -343,11 +351,17 @@ footer {
     .text-f {
         font-size: 19px;
     }
+    .form-wrap {
+        padding: 0 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .contact-from {
         height: auto;
+    }
+    footer {
+        text-align: center;
     }
     .header-banner {
         margin-top: 20px;
@@ -366,5 +380,12 @@ footer {
         height: 76px;
         position: relative;
         padding: 0 45px;
+    }
+    .stock {
+        padding: 50px 10px;
+    }
+    .form-wrap {
+        width: 100%;
+        padding: 0 15px;
     }
 }
