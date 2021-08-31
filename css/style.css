@@ -1,7 +1,7 @@
 html,
 body {
     max-width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .nav-container {
@@ -22,6 +22,11 @@ body {
 a:active {
     color: yellow;
 }
+
+
+/* .wraper {
+    width: 1598px;
+} */
 
 .header {
     height: 500px;
@@ -86,7 +91,8 @@ img:hover {
 }
 
 .couse_wrap {
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
     padding: 0 105px;
 }
 
@@ -290,7 +296,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 768px) {
     .header-banner {
         width: 100%;
     }
@@ -319,7 +325,7 @@ footer {
         font-weight: 400;
     }
     iframe {
-        width: 200px;
+        width: 350px;
     }
     .header {
         height: 300px;
@@ -334,6 +340,9 @@ footer {
     .couse_wrap {
         padding: 0 70px;
     }
+    .text-f {
+        font-size: 19px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -346,5 +355,16 @@ footer {
     }
     .nav-couse {
         display: block;
+        text-align: center;
+        margin-top: 0;
+    }
+    .couse_wrap {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .nav-fixed {
+        height: 76px;
+        position: relative;
+        padding: 0 45px;
     }
 }
